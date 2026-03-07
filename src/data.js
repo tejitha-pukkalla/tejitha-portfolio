@@ -1,0 +1,285 @@
+export const personalInfo = {
+  name: "Tejitha Pukkalla",
+  tagline: "Full-Stack MERN Developer",
+  location: "Visakhapatnam, Andhra Pradesh",
+  email: "p.tejitha@gmail.com",
+  phone: "+91 8008429292",
+  linkedin: "https://linkedin.com/in/pukkalla-tejitha",
+  github: "https://github.com/tejitha-pukkalla",
+  bio: "I architect and build end-to-end digital products that scale. With a Master's in Data Science and deep expertise in the MERN stack, I bridge the gap between raw engineering and delightful user experience — shipping production-grade software that matters.",
+  bioShort: "M.Tech Data Science × MERN Stack × 2+ Years Building Production Apps",
+  roles: [
+    "Full-Stack MERN Developer",
+    "React Native Engineer",
+    "Backend Architect",
+    "UI/UX Enthusiast",
+    "Data Science Graduate",
+  ],
+  stats: [
+    { label: "Years Experience", value: "2+" },
+    { label: "Projects Shipped", value: "8+" },
+    { label: "Tech Stack", value: "MERN" },
+    { label: "Apps in Production", value: "3+" },
+  ],
+};
+
+export const skills = [
+  {
+    category: "Frontend",
+    color: "acid",
+    icon: "🎨",
+    items: [
+      { name: "React.js", level: 95 },
+      { name: "React Native", level: 88 },
+      { name: "Next.js", level: 82 },
+      { name: "TypeScript", level: 80 },
+      { name: "Tailwind CSS", level: 95 },
+      { name: "Framer Motion", level: 75 },
+    ],
+  },
+  {
+    category: "Backend",
+    color: "plasma",
+    icon: "⚡",
+    items: [
+      { name: "Node.js", level: 92 },
+      { name: "Express.js", level: 90 },
+      { name: "REST APIs", level: 95 },
+      { name: "JWT / OAuth", level: 85 },
+      { name: "Socket.io", level: 78 },
+      { name: "MVC Architecture", level: 88 },
+    ],
+  },
+  {
+    category: "Database",
+    color: "ice",
+    icon: "🗄️",
+    items: [
+      { name: "MongoDB", level: 90 },
+      { name: "SQL", level: 75 },
+      { name: "Mongoose ODM", level: 88 },
+      { name: "Data Modeling", level: 82 },
+    ],
+  },
+  {
+    category: "Tools & DevOps",
+    color: "ember",
+    icon: "🛠️",
+    items: [
+      { name: "Git & GitHub", level: 92 },
+      { name: "Postman", level: 90 },
+      { name: "Turborepo", level: 72 },
+      { name: "Vite", level: 88 },
+      { name: "Linux / CLI", level: 78 },
+    ],
+  },
+  {
+    category: "Data Science",
+    color: "acid",
+    icon: "🧠",
+    items: [
+      { name: "Machine Learning", level: 80 },
+      { name: "Deep Learning", level: 72 },
+      { name: "Python", level: 82 },
+      { name: "Data Analysis", level: 85 },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "FoodFleet — Multi-Platform Delivery Ecosystem",
+    description:
+      "Production-grade food delivery platform with 4 interconnected apps: Customer Mobile App, Restaurant Panel, Driver App, and Admin Dashboard. Built with Turborepo monorepo architecture.",
+    longDesc:
+      "Architected end-to-end ecosystem from scratch. Built real-time order tracking with Socket.io, GPS-based route optimization for drivers, business intelligence dashboards, and online payment processing with full transaction lifecycle management.",
+    tags: ["React Native", "Next.js", "Node.js", "MongoDB", "TypeScript", "Turborepo", "Socket.io"],
+    color: "acid",
+    status: "Live",
+    github: "#",
+    live: "#",
+    featured: true,
+    metrics: ["4 Apps", "Real-time GPS", "Payment Gateway", "Multi-role"],
+  },
+  {
+    id: 2,
+    title: "SportBook — Online Facility Booking",
+    description:
+      "Full-stack booking platform for Vishwanadh Sports Club. Users can browse, book, and pay for sports facilities online with a seamless workflow.",
+    longDesc:
+      "Built secure slot booking with conflict prevention, admin panel for schedule management, integrated online payments with success/failure tracking, and responsive dashboards using React + Vite.",
+    tags: ["React", "Vite", "Node.js", "MongoDB", "Tailwind CSS", "Payment API"],
+    color: "ice",
+    status: "Live",
+    github: "#",
+    live: "#",
+    featured: true,
+    metrics: ["Slot Booking", "Payment Integration", "Admin Dashboard", "Responsive"],
+  },
+  {
+    id: 3,
+    title: "DentCare — Dental Clinic Management System",
+    description:
+      "Role-based clinical management system with separate dashboards for patients, doctors, and staff. Full CRUD for visits, medical records, and real-time validation.",
+    longDesc:
+      "Built tab-based patient profile management, MVC backend with Node.js/Express, ShadCN UI components, React Hook Form with Zod validation, and clean MongoDB schema design for clinical data.",
+    tags: ["React.js", "ShadCN UI", "React Hook Form", "Zod", "Node.js", "MongoDB"],
+    color: "plasma",
+    status: "Completed",
+    github: "#",
+    live: "#",
+    featured: false,
+    metrics: ["3 Roles", "Medical Records", "Real-time Validation", "MVC Backend"],
+  },
+  {
+    id: 4,
+    title: "HRFlow — Employee Management Portal",
+    description:
+      "Web-based HR system to manage employee records, attendance, payroll, roles, and departments with advanced search, filter, and pagination.",
+    longDesc:
+      "Comprehensive HR platform with CRUD operations for onboarding, salary management, and role assignment. Includes secure JWT APIs, responsive admin dashboards, and data-intensive table handling with pagination.",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+    color: "ember",
+    status: "Completed",
+    github: "#",
+    live: "#",
+    featured: false,
+    metrics: ["Payroll System", "Attendance Tracking", "Role Management", "JWT Auth"],
+  },
+  {
+    id: 5,
+    title: "TeamCore — Internal CRM System",
+    description:
+      "CRM tool with leave management, task tracking, employee roles, and project management for distributed global teams.",
+    longDesc:
+      "Multi-role system (Super Admin, Team Lead, Project Lead, Member) with structured approval workflows, automation-ready backend integrations, and comprehensive dashboards for performance and reporting.",
+    tags: ["MERN Stack", "JWT", "Tailwind CSS", "Express.js", "MongoDB"],
+    color: "acid",
+    status: "In Progress",
+    github: "#",
+    live: "#",
+    featured: false,
+    metrics: ["4 User Roles", "Leave Management", "Task Tracking", "Project Modules"],
+  },
+  {
+    id: 6,
+    title: "GenAI Collections System — Tata iQ",
+    description:
+      "AI-powered collections framework for financial services with predictive modeling, fairness guardrails, and business impact analysis.",
+    longDesc:
+      "Designed AI architecture for a simulated financial client (Geldium). Delivered executive-ready presentations with structured findings on model fairness, risk stratification, and automation workflows.",
+    tags: ["GenAI", "Predictive Modeling", "Python", "AI Consulting", "Data Analysis"],
+    color: "plasma",
+    status: "Completed",
+    github: "#",
+    live: "#",
+    featured: false,
+    metrics: ["Predictive AI", "Fairness Guardrails", "Executive Report", "Consulting"],
+  },
+];
+
+export const experience = [
+  {
+    id: 1,
+    role: "Full Stack Developer",
+    company: "Design Blocks",
+    period: "Oct 2025 — Present",
+    type: "Full-time",
+    color: "acid",
+    highlights: [
+      "Architected a production-grade multi-platform food delivery ecosystem with 4 interconnected applications",
+      "Built Admin Panel with real-time analytics and business intelligence dashboards using React/Next.js",
+      "Developed Customer Mobile App (React Native + TypeScript) with integrated payment processing",
+      "Implemented Driver App with real-time order assignment and GPS-based route optimization",
+      "Utilized Turborepo for monorepo architecture enabling efficient code sharing across all applications",
+      "Managed full SDLC: requirements, API design, testing, deployment, and client support",
+    ],
+    tech: ["React Native", "Next.js", "Node.js", "MongoDB", "TypeScript", "Turborepo"],
+  },
+  {
+    id: 2,
+    role: "Software Developer",
+    company: "Think AI Labs",
+    period: "Mar 2023 — Jun 2025",
+    type: "Full-time",
+    color: "plasma",
+    highlights: [
+      "Built role-based Dental Clinic Management System with patient, doctor, and staff dashboards",
+      "Developed Employee Management Portal with advanced HR workflows and payroll management",
+      "Designed Vishwanadh Sports Club Online Booking Application with payment integration",
+      "Created secure REST APIs with JWT authentication and proper data validation patterns",
+      "Implemented responsive UIs using Tailwind CSS and ShadCN UI component library",
+    ],
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+  },
+  {
+    id: 3,
+    role: "GenAI Virtual Intern",
+    company: "Tata iQ (via Forage)",
+    period: "2024",
+    type: "Internship",
+    color: "ice",
+    highlights: [
+      "Simulated real-world AI consulting for a financial services client (Geldium)",
+      "Designed an AI-powered collections system framework with predictive modeling",
+      "Built fairness guardrails and business impact analysis into the AI architecture",
+      "Delivered findings through executive-ready PowerPoint presentation and structured report",
+    ],
+    tech: ["GenAI", "Python", "Data Analysis", "AI Architecture", "Predictive Modeling"],
+  },
+  {
+    id: 4,
+    role: "Python Developer Intern",
+    company: "Techno Hacks Edutech",
+    period: "2023",
+    type: "Internship",
+    color: "ember",
+    highlights: [
+      "Developed diverse Python projects: ATM simulation, password generator, temperature converter",
+      "Applied core Python concepts in practical real-world application contexts",
+      "Built foundations in software problem-solving and structured programming",
+    ],
+    tech: ["Python", "OOP", "CLI Applications"],
+  },
+  {
+    id: 5,
+    role: "M.Tech — Data Science",
+    company: "JNTUK Lenora College of Engineering",
+    period: "2022 — 2025",
+    type: "Education",
+    color: "acid",
+    highlights: [
+      "Specialized in Machine Learning, Deep Learning, and Data Science algorithms",
+      "Applied advanced academic knowledge to real-world software engineering challenges",
+      "Combined theoretical research with hands-on development across multiple projects",
+    ],
+    tech: ["Machine Learning", "Deep Learning", "Python", "Data Analysis"],
+  },
+  {
+    id: 6,
+    role: "B.Tech — Civil Engineering",
+    company: "Andhra University College of Engineering for Women",
+    period: "2018 — 2022",
+    type: "Education",
+    color: "plasma",
+    highlights: [
+      "Completed Bachelor of Technology in Civil Engineering from a prestigious women's engineering college",
+      "Built strong analytical, problem-solving, and structural thinking foundations",
+      "Developed discipline, time management, and systematic approach to complex challenges",
+      "Transitioned into software development, applying engineering mindset to tech problem-solving",
+    ],
+    tech: ["AutoCAD", "Engineering Mathematics", "Structural Analysis", "Project Management"],
+  },
+];
+
+export const techIcons = [
+  { name: "React", symbol: "⚛", color: "#00d4ff" },
+  { name: "Node.js", symbol: "⬡", color: "#00ff94" },
+  { name: "MongoDB", symbol: "🍃", color: "#00ff94" },
+  { name: "TypeScript", symbol: "TS", color: "#3178c6" },
+  { name: "Next.js", symbol: "▲", color: "#ffffff" },
+  { name: "Tailwind", symbol: "◈", color: "#38bdf8" },
+  { name: "Express", symbol: "Ex", color: "#888888" },
+  { name: "Git", symbol: "⎇", color: "#ff4d6d" },
+];
